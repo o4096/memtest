@@ -1,14 +1,12 @@
 # memtest
----
 
 A small test program designed to allocate a specified amount of RAM and fill it with random data for testing and benchmarking purposes. This tool is useful for developers and system administrators who need to evaluate memory performance, stability, and behavior under various conditions.
 
-## Use Cases
+Allocates a user-defined amount of memory. Fills the allocated memory with random data.
 
-- Allocates a user-defined amount of memory.
-- Fills the allocated memory with random data.
-- Useful for stress testing and diagnosing memory-related issues.
-- Could be used as template code for benchmarking.
+## Use Cases
+- Useful for stress testing
+- Diagnosing memory-related issues.
 
 ---
 ## Compile & Run
@@ -23,5 +21,5 @@ or you can use cmake with the provided CMakeLists.txt:
 mkdir build
 cd build
 cmake ..
-make .
+make
 ```
